@@ -1,0 +1,21 @@
+{
+    "name": "rais/laravel-image-upload",
+    "description": "This can be used to upload image to public folder or aws s3 bucket",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rais\\LaravelImageUpload\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ra-is",
+            "email": "osumanurais@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "league/flysystem-aws-s3-v3": "~1.0"
+    }
+}

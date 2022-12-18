@@ -12,7 +12,7 @@ class ImageS3Repository implements ImageManipulationInterface
         $name = time() . $imageFile->getClientOriginalName();
         $filePath = "images/$subdirectory/" . $name;
         Storage::disk('s3')->put($filePath, file_get_contents($imageFile));
-        $image_path = env('AWS_SAVED_URL') . $filePath;
+        $image_path = config('laravelimageupload.aws_bucket_url') . $filePath;
         return $image_path;
     }
 }

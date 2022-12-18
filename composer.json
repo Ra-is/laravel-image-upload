@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rais\\Contact\\ContactServiceProvider"
+                "Rais\\LaravelImageUpload\\ImageUploadServiceProvider"
             ]
         }
     }

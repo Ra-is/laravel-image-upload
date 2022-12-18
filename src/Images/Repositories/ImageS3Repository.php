@@ -1,6 +1,7 @@
 <?php
 
 namespace Rais\LaravelImageUpload\Images\Repositories;
+require '../vendor/autoload.php';
 use Illuminate\Support\Facades\Storage;
 use Rais\LaravelImageUpload\Images\Interfaces\ImageManipulationInterface;
 
